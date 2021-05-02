@@ -7,7 +7,7 @@ module.exports = {
         ? {
              '@fullhuman/postcss-purgecss': {
                 // added sections folder and changed extension to jsx
-                content: ['./components/**/*.jsx', './pages/**/*.js', './sections/**/**/*.jsx'],
+                content: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}', './sections/**/**/*.{js,ts,jsx,tsx}'],
                 defaultExtractor: content =>
                    content.match(/[\w-/:]+(?<!:)/g) || [],
              },
