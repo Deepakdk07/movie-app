@@ -10,7 +10,7 @@ export default function Home({results}) {
   return (
     <div>
       <Head>
-        <title>Hulu</title>
+        <title>MOVIE : DataBase</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* Header */}
